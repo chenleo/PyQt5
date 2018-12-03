@@ -24,6 +24,6 @@ app: QtWidgets.QApplication = QtWidgets.QApplication(sys.argv)
 hello: QtWidgets.QPushButton = QtWidgets.QPushButton("Hello World!")
 hello.resize(100, 30)
 
-# Step 3: Shut Down Logic
+# Step 1+: Shut Down Logic
 hello.show()
 sys.exit(app.exec_())
